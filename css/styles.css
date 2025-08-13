@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**********************Class**********************/
+
+div.page {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 2fr 4fr 4fr 4fr 60px;
+    grid-template-areas: 'header header'
+                         'menu middle1'
+                         'menu middle1'
+                         'menu middle2'
+                         'footer footer' ;
+}
+
+div.header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 151, 68);
+    grid-area: header;
+    justify-items: center;
+    font-size: 2rem;
+}
+
+div.menu {
+    background-color: aqua;
+    grid-area: menu;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+div.middle1 {
+    background-color: brown;
+    grid-area: middle1;
+    padding-left: 7px;
+    font-size: 1.8rem;
+}
+
+div.middle2 {
+    background-color: yellow;
+    grid-area: middle2;
+    font-size: 1.8rem;
+}
+
+Div.footer {
+    background-color: violet;
+    grid-area: footer;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+a.link {
+    border: solid 2px black;
+    padding: 2px;
+}
+
+
+
+/*****funker ikke enda*****/
+
+@media screen (max-width: 400px) {
+    div.page {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 3fr 3fr 60px;
+        grid-template-areas: 'header'
+                             'menu'
+                             'middle1'
+                             'middle2'
+                             'footer' ;
+    }
+    
+    
+}
