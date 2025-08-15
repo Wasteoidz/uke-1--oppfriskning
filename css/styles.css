@@ -34,6 +34,41 @@ div.menu {
     letter-spacing: 1px;
     text-align: center;
     padding-top: 20px;
+    position: relative;
+}
+
+.kortKnapp {
+    position:absolute;
+    bottom: 0;
+    padding-bottom: 3%;
+    padding-left: 25%;
+    
+}
+
+.body2 {
+    padding: 1%;
+}
+
+.visittkort {
+    background-color: aquamarine;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+}
+
+.bilde {
+    height: 55%;
+    width: 27.5%;
+    padding: 2%;
+}
+
+div.omMeg {
+    padding-left: 2%;
+    font-family: cursive;
+}
+
+.slogan {
+
 }
 
 div.middle1 {
@@ -61,7 +96,6 @@ a.link {
     border: solid 2px black;
     padding: 2px;
 }
-
 
 
 /*****funker ikke enda*****/
